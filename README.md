@@ -30,8 +30,6 @@ ___
 Evaluation scheme on data_matrix dataset:
 (i) Comparison of ROC curves for these recommender models for the given-5 evaluation scheme
 (ii) Plotting ROC curve to find the best reocmmendation model - This plots the true positive rate (TPR) against the false positive rate (FPR)
-# ibcf_jaccard_25 model dominates (almost completely) the other method since for each length of top-N list they provide a better combination of TPR and FPR.
-
 ___
 # Steps
 1. Read Data
@@ -43,8 +41,7 @@ ___
 (ii) UBCF method to see similarity between playlists and generate top 10 predictions (tracks/songs) for the playlists in the test sample.
 (iii) IBCF method to see similarity between items (tracks/songs) and generate top 10 predictiosn of tracks/songs for the playlists in the test sample. 
 6. K-fold cross-validation for data_matrix - Evaluation of a top-N recommender algorithm
-7. Plot ROC curves to find the best recommender model
-# ibcf_jaccard_25 model dominates (almost completely) the other method which provides the best combination of TPR and FPR.
+7. Plot ROC curves to find the best recommender model - ibcf_jaccard_25 model dominates (almost completely) the other method which provides the best combination of TPR and FPR.
 
 :file_folder: [See my module](https://github.com/Conniekoh/Spotify-recommender-system/blob/main/Codility/finalproject_spotifyrecommendationsystem_FINAL.v3.r)
 ___
