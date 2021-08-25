@@ -8,11 +8,13 @@ Spotify has a community of more than 345 million users, including 158 million pr
 
 Using the Recommender System for Song Prediction, I explored different recommender system methods on Spotify user data to determine which is the most successful at personalized song selection. Of all machine learning systems, I selected recommender systems because it is the most successful at searching through large volumes of data to provide more personalized content to users. I used three recommender system methods. The popular method, one of the simplest of the recommender systems, is not customized to the user but rather recommends items based on average of all consumer choices. User-based collaborative filtering (UBCF) and item-based collaborative filtering (IBCF) are memory-based collaborative filtering methods. UBCF looks at the similarity between playlists and IBCF looks at the similarities between songs. Although recommender system methods are most commonly used above all other systems due to their effectiveness, they are limited in situations when songs have not been added to many playlists or not added to any playlists at all.
 
+
+___
 # Project Data & Data Preparation 
-# Project Data 
+Project Data 
 The project data consists of two parts. The first is a Spotify dataset directly obtained from AICrowd. The dataset contains one million playlists created by Spotify users from January 2010 to October 2017. It holds over three million observations and twenty six variables. The second part is a dataset obtained from calling the Spotify API (Application Programming Interface), specifically the audio features API. 
 
-# Data Preparation 
+Data Preparation 
 As the last step in the Python environment, I checked for null values and exported the data to be analyzed further in R. I found that there were 6 tracks that did not have audio features via the Spotify API. Since this is relatively small, we decided to drop them in R.
 
 ___
