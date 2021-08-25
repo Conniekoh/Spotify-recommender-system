@@ -11,10 +11,10 @@ Using the Recommender System for Song Prediction, I explored different recommend
 
 ___
 # Project Data & Data Preparation 
-Project Data 
+# Project Data 
 The project data consists of two parts. The first is a Spotify dataset directly obtained from AICrowd. The dataset contains one million playlists created by Spotify users from January 2010 to October 2017. It holds over three million observations and twenty six variables. The second part is a dataset obtained from calling the Spotify API (Application Programming Interface), specifically the audio features API. 
 
-Data Preparation 
+# Data Preparation 
 As the last step in the Python environment, I checked for null values and exported the data to be analyzed further in R. I found that there were 6 tracks that did not have audio features via the Spotify API. Since this is relatively small, we decided to drop them in R.
 
 ___
