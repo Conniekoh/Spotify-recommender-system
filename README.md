@@ -34,7 +34,7 @@ ___
 7. Plot ROC curves to find the best recommender model
 # ibcf_jaccard_25 model dominates (almost completely) the other method which provides the best combination of TPR and FPR.
 
-:file_folder: [See my module](https://github.com/Conniekoh/Airbnb_price_prediction/blob/main/codility/conniekoh_kaggle_comp_submssion_final.v2.r)
+:file_folder: [See my module](https://github.com/Conniekoh/Spotify-recommender-system/blob/main/Codility/finalproject_spotifyrecommendationsystem_FINAL.v3.r)
 ___
 ## Before Release
 - [x] Finish my changes
