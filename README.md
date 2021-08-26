@@ -23,13 +23,13 @@ The Goal is to use the recommender system to find the best unsupervised machine 
 
 Built three recommended models - POPULAR, IBCF, and UBCF. 
 Two types used for these three recommended models:
-(i) 'topNList' to get top 10 recommended tracks(songs) for each playlist using train dataset  
-(ii) 'ratings' to get predicted ratings for tracks not rated by playlist using test dataset
+- (i) 'topNList' to get top 10 recommended tracks(songs) for each playlist using train dataset  
+- (ii) 'ratings' to get predicted ratings for tracks not rated by playlist using test dataset
 ___
 # Metric
 Evaluation scheme on data_matrix dataset:
-(i) Comparison of ROC curves for these recommender models for the given-5 evaluation scheme
-(ii) Plotting ROC curve to find the best reocmmendation model - This plots the true positive rate (TPR) against the false positive rate (FPR)
+- (i) Comparison of ROC curves for these recommender models for the given-5 evaluation scheme
+- (ii) Plotting ROC curve to find the best reocmmendation model - This plots the true positive rate (TPR) against the false positive rate (FPR)
 ___
 # Steps
 1. Read Data
@@ -37,9 +37,9 @@ ___
 3. Restructure data - recast the dataset as a 'binaryRatingMatrix'
 4. Split data into train and test dataset
 5. Build recommenders using three methods 
-(i) POPULAR method to generate top 10 predictions (tracks/songs) for the test sample
-(ii) UBCF method to see similarity between playlists and generate top 10 predictions (tracks/songs) for the playlists in the test sample.
-(iii) IBCF method to see similarity between items (tracks/songs) and generate top 10 predictiosn of tracks/songs for the playlists in the test sample. 
+- (i) POPULAR method to generate top 10 predictions (tracks/songs) for the test sample
+- (ii) UBCF method to see similarity between playlists and generate top 10 predictions (tracks/songs) for the playlists in the test sample.
+- (iii) IBCF method to see similarity between items (tracks/songs) and generate top 10 predictiosn of tracks/songs for the playlists in the test sample. 
 6. K-fold cross-validation for data_matrix - Evaluation of a top-N recommender algorithm
 7. Plot ROC curves to find the best recommender model - ibcf_jaccard_25 model dominates (almost completely) the other method which provides the best combination of TPR and FPR.
 
